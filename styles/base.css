@@ -10,6 +10,7 @@ nav a:hover {
 main{
     display: flex;
     justify-content: space-evenly;
+    max-width: 100%;
 }
 
 .card {
