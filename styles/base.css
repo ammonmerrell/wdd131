@@ -1,6 +1,8 @@
 nav{
     display:flex;
     justify-content: space-evenly;
+    background-color: burlywood;
+    padding: 25px;
 }
 
 nav a:hover {
