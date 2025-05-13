@@ -16,4 +16,5 @@ h1{
     margin: 1rem auto;
     border: 2px solid black;
     opacity: 0.6;
+    padding: 5px;
 }
