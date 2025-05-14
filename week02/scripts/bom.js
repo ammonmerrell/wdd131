@@ -9,5 +9,8 @@ li.append(deleteButton);
 list.append(li);
 
 buttonElement.addEventListener('click', function () {
-    // Code to execute when the element is clicked
+    if (input.value.trim() != '')
+    {
+        
+    }
 });
