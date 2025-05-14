@@ -15,12 +15,6 @@ for (const button of buttons) {
 buttonElement.addEventListener('click', function () {
     if (input.value.trim() != '')
     {
-        const para = document.createElement("p");
-        para.textContent = "Chapter submitted!";
-        document.body.appendChild(para);
-    } else {
-        const para = document.createElement("p");
-        para.textContent = "Please enter a chapter!";
-        document.body.appendChild(para);
+        li.textContent = input.value;
     }
 });
