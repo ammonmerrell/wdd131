@@ -8,13 +8,16 @@ deleteButton.textContent = '❌';
 li.append(deleteButton);
 list.append(li);
 
-for (const button of buttons) {
-    button.addEventListener("click", createParagraph);
-}
+
 
 buttonElement.addEventListener('click', function () {
     if (input.value.trim() != '')
     {
         li.textContent = input.value;
     }
+});
+
+deleteButton.addEventListener('click', function () {
+    list.removeChild(li);
+    input.focus();
 });
