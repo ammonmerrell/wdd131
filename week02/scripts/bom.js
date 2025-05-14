@@ -13,6 +13,7 @@ input.value = '';
 buttonElement.addEventListener('click', function () {
     if (input.value.trim() != '')
     {
+        input.focus();
         li.textContent = input.value;
     }
 });
