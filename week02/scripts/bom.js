@@ -8,9 +8,19 @@ deleteButton.textContent = '❌';
 li.append(deleteButton);
 list.append(li);
 
+for (const button of buttons) {
+    button.addEventListener("click", createParagraph);
+}
+
 buttonElement.addEventListener('click', function () {
     if (input.value.trim() != '')
     {
-        
+        const para = document.createElement("p");
+        para.textContent = "Chapter submitted!";
+        document.body.appendChild(para);
+    } else {
+        const para = document.createElement("p");
+        para.textContent = "Please enter a chapter!";
+        document.body.appendChild(para);
     }
 });
