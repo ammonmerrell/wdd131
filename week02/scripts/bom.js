@@ -8,7 +8,7 @@ deleteButton.textContent = '❌';
 li.append(deleteButton);
 list.append(li);
 
-
+input.value = '';
 
 buttonElement.addEventListener('click', function () {
     if (input.value.trim() != '')
