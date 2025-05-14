@@ -7,3 +7,7 @@ li.textContent = input.value;
 deleteButton.textContent = '❌';
 li.append(deleteButton);
 list.append(li);
+
+buttonElement.addEventListener('click', function () {
+    // Code to execute when the element is clicked
+});
