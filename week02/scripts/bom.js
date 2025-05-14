@@ -10,7 +10,7 @@ list.append(li);
 
 input.value = '';
 
-buttonElement.addEventListener('click', function () {
+buttonElement.addEventListener('click', () => {
     if (input.value.trim() != '')
     {
         input.focus();
@@ -18,7 +18,7 @@ buttonElement.addEventListener('click', function () {
     }
 });
 
-deleteButton.addEventListener('click', function () {
+deleteButton.addEventListener('click',() => {
     list.removeChild(li);
     input.focus();
 });
