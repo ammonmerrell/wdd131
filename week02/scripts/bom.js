@@ -1,24 +1,36 @@
 const input = document.querySelector('#favchap');
 const buttton = document.querySelector('button');
-const list = document.querySelector('list');
-const li = document.createElement('li');
-const deleteButton = document.createElement('button');
-li.textContent = input.value;
-deleteButton.textContent = '❌';
-li.append(deleteButton);
-list.append(li);
+const unlist = document.querySelector('ul');
 
-input.value = '';
+// const list = document.querySelector('list');
 
-buttonElement.addEventListener('click', () => {
-    if (input.value.trim() != '')
-    {
-        input.focus();
-        li.textContent = input.value;
+
+// li.textContent = input.value;
+
+// li.append(deleteButton);
+// list.append(li);
+
+// input.value = '';
+
+button.addEventListener('click', () => {
+    if (input.value.trim() !== '') {
+        const myItem = input.value;
+        input.value = '';
+        const li = document.createElement('li');
+        const text = document.createElement('span');
+        const deleteButton = document.createElement('button');
+
+        li.appendChild(text);
+        text.textContent = myItem;
+        li.appendChild(deleteButton);
+        deleteButton.textContent = '❌';
+        unlist.appendChild(li);
+
+        deleteButton.addEventListener('click', () => {
+            unlistlist.removeChild(li);
+            input.focus();
+        });
+
+
     }
-});
-
-deleteButton.addEventListener('click',() => {
-    list.removeChild(li);
-    input.focus();
 });
