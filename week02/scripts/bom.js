@@ -1,5 +1,5 @@
 const input = document.querySelector('#favchap');
-const buttton = document.querySelector('button');
+const button = document.querySelector('button');
 const unlist = document.querySelector('ul');
 
 // const list = document.querySelector('list');
@@ -27,7 +27,7 @@ button.addEventListener('click', () => {
         unlist.appendChild(li);
 
         deleteButton.addEventListener('click', () => {
-            unlistlist.removeChild(li);
+            unlist.removeChild(li);
             input.focus();
         });
 
