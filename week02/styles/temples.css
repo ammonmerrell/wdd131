@@ -29,8 +29,46 @@ main{
     font-style: normal;
 
     display: grid;
-    grid-template: 1fr 1fr /1fr;
+    grid-template-columns: 1fr;
 
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+
+}
+.one{
+    grid-column: 1;
+    grid-row: 1;
+}
+.two{
+    grid-column: 1;
+    grid-row: 2;
+}
+.three {
+    grid-column: 1;
+    grid-row: 3;
+}
+.four {
+    grid-column: 1;
+    grid-row: 4;
+}
+.five {
+    grid-column: 1;
+    grid-row: 5;
+}
+.six {
+    grid-column: 1;
+    grid-row: 6;
+}
+.seven {
+    grid-column: 1;
+    grid-row: 7;
+}
+.eight {
+    grid-column: 1;
+    grid-row: 8;
+}
+.nine {
+    grid-column: 1;
+    grid-row: 9;
 }
 
 img {
