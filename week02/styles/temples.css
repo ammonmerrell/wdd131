@@ -3,7 +3,6 @@
 header{
     background-color:lightblue;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
      
@@ -32,7 +31,6 @@ main{
     background-color: lightseagreen;
 
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 
@@ -88,7 +86,6 @@ img {
 footer {
     background-color: lightgray;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
