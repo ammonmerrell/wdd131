@@ -16,6 +16,7 @@ header{
     padding: 0.5rem 0.75rem;
     background-color: #eee;
     color: #000;
+    content: "☰";
 }
 
 #menu::before{
