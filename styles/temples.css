@@ -11,13 +11,19 @@ header{
 #menu {
     display: block;
     font-size: 2rem;
-    font-weight: 700;
+    
+    background-color: lightgray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
     text-decoration: none;
     padding: 0.5rem 0.75rem;
     background-color: #eee;
     color: #000;
     content: "☰";
 }
+
 
 #menu::before{
     content: "☰";
@@ -31,6 +37,7 @@ nav{
     display:flex;
     justify-content: space-around;
     flex-direction: column;
+
 }
 
 .navigation a{
@@ -49,7 +56,8 @@ nav{
 }
 
 main{
-    max-width: 800px;
+    width: 483px;
+    width: 483px;
     /* margin: 0 auto; */
     background-color: lightseagreen;
 
@@ -62,6 +70,11 @@ main{
 
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
 
+}
+
+img{
+    max-width: 400px;
+    width: 400px;
 }
 .one{
     grid-column: 1;
@@ -100,9 +113,7 @@ main{
     grid-row: 9;
 }
 
-img {
-    max-width: 700px;
-}
+
 
 
 
