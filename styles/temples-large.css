@@ -7,6 +7,17 @@
     #menu{
         display: none;
     }
+    .navigation a {
+        display: flex;  
+        
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
     .one {
         grid-column: 1;
         grid-row: 1;

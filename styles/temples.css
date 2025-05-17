@@ -30,10 +30,22 @@ header{
 nav{
     display:flex;
     justify-content: space-around;
+    flex-direction: column;
 }
 
-nav a:hover{
+.navigation a{
+    display: none;
+}
+
+.navigation a:hover,
+.navigation a:active{
     background-color: lightskyblue;
+}
+
+.open a{
+    display: block;
+    background-color: gainsboro;
+    
 }
 
 main{
