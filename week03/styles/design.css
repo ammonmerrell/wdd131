@@ -24,8 +24,7 @@ main {
 }
 section{
     border: solid rgb(0 0 0 / 0.3);
-    /* background-color: #702963;
-    color: #eee; */
+    padding: 1rem;
 }
 
 h2 {
