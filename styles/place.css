@@ -10,6 +10,7 @@ header{
     grid-row: 1;
     grid-column: 1;
     background-color: rgb(184, 30, 30);
+    color:white;
 }
 .one{
     grid-row: 3;
@@ -25,7 +26,6 @@ header{
     display: grid;
     grid-template: 50px 50px 50px 50px 50px 70px 70px 70px / 120px 110px;
     border: solid rgb( 0 0 0/ 0.3);
-    /* background-color: burlywood; */
 }
 .data h1{
     display: flex;
@@ -102,14 +102,12 @@ header{
     grid-row: 8;
     grid-column: 2;
 }
-/* .one{
-
-} */
 
 .weather{
     grid-row: 2;
     grid-column: 1;
-    background-color: blue;
+    /* background-color: blue;
+    color: white; */
 }
 .cloud{
     grid-row:3;
@@ -125,6 +123,7 @@ footer{
     grid-row: 5;
     grid-column: 1;
     background-color: rgb(184, 30, 30);
+    color: white;
 }
 
 @media screen and (min-width: 500px){
