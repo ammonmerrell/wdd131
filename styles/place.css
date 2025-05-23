@@ -53,6 +53,12 @@ header{
     grid-row:3;
     grid-column: 1;
 }
+
+.heat{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+}
+
 footer{
     grid-row: 5;
     grid-column: 1;
