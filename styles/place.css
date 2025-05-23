@@ -1,12 +1,15 @@
 body{
     /* display: grid;
     grid-template: 100px 300px 200px 1fr 1fr / 1fr; */
+    display: flex;
+    flex-direction: column;
 
 }
 
 header{
     grid-row: 1;
     grid-column: 1;
+    background-color: rgb(184, 30, 30);
 }
 .one{
     grid-row: 3;
@@ -20,7 +23,9 @@ header{
 
 .info{
     display: grid;
-    grid-template: 50px 50px 50px 50px 50px 50px 50px 50px / 110px 50px;
+    grid-template: 50px 50px 50px 50px 50px 70px 70px 70px / 120px 110px;
+    border: solid rgb( 0 0 0/ 0.3);
+    /* background-color: burlywood; */
 }
 .data h1{
     display: flex;
@@ -32,6 +37,10 @@ header{
     grid-row: 1;
     grid-column: 1;
 } */
+ .area{
+    grid-row: 1;
+    grid-column: 1;
+ }
 .p1{
     grid-row: 1;
     grid-column: 2;
@@ -41,6 +50,58 @@ header{
     grid-column: 1;
 }
 
+.p2{
+    grid-row: 2;
+    grid-column: 2;
+}
+.cap{
+    grid-row: 3;
+    grid-column: 1;
+}
+.p3{
+    grid-row: 3;
+    grid-column: 2;
+}
+.lan{
+    grid-row: 4;
+    grid-column: 1;
+}
+.p4{
+    grid-row: 4;
+    grid-column: 2;
+}
+.cur{
+    grid-row: 5;
+    grid-column: 1;
+}
+.p5{
+    grid-row: 5;
+    grid-column: 2;
+}
+.timez{
+    grid-row: 6;
+    grid-column: 1;
+}
+.p6{
+    grid-row: 6;
+    grid-column: 2;
+}
+.call{
+    grid-row: 7;
+    grid-column: 1;
+}
+.p7{
+    grid-row: 7;
+    grid-column: 2;
+}
+.inter{
+    grid-row: 8;
+    grid-column: 1;
+}
+.p8{
+    grid-row: 8;
+    grid-column: 2;
+}
 /* .one{
 
 } */
@@ -48,6 +109,7 @@ header{
 .weather{
     grid-row: 2;
     grid-column: 1;
+    background-color: blue;
 }
 .cloud{
     grid-row:3;
@@ -62,6 +124,7 @@ header{
 footer{
     grid-row: 5;
     grid-column: 1;
+    background-color: rgb(184, 30, 30);
 }
 
 @media screen and (min-width: 500px){
