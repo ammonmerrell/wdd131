@@ -3,21 +3,26 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    --red: rgb(184, 30, 30);
+    --white: white;
+    --blue: rgb(39, 39, 108);
 }
-
+h1, h2, p, figcaption{
+    color: var(--white);
+}
 body{
     /* display: grid;
     grid-template: 100px 300px 200px 1fr 1fr / 1fr; */
     display: flex;
     flex-direction: column;
-
+    background-color: var(--blue);
 }
 
 header{
     grid-row: 1;
     grid-column: 1;
-    background-color: rgb(184, 30, 30);
-    color:white;
+    background-color: var(--red);
+    color:var(--white);
 }
 .hero{
     grid-row: 3;
@@ -135,8 +140,8 @@ header{
 footer{
     grid-row: 5;
     grid-column: 1;
-    background-color: rgb(184, 30, 30);
-    color: white;
+    background-color: var(--red);
+    color: var(--white);
 }
 
 @media screen and (min-width: 500px){
