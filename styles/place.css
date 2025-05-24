@@ -20,7 +20,7 @@ body{
 
 header{
     grid-row: 1;
-    grid-column: 1;
+    grid-column: 1/5;
     background-color: var(--red);
     color:var(--white);
 }
@@ -139,7 +139,7 @@ header{
 
 footer{
     grid-row: 5;
-    grid-column: 1;
+    grid-column: 1/5;
     background-color: var(--red);
     color: var(--white);
 }
@@ -154,7 +154,7 @@ footer{
     }
     header{
         grid-row: 1;
-        grid-column: 1/4;
+        grid-column: 1/5;
     }
     .data{
         grid-row: 2;
@@ -172,14 +172,14 @@ footer{
     .weather{
 
         grid-row: 3;
-        grid-column: 3;
+        grid-column: 4;
     }
     .weather img{
-        width: 10%;
+        width: 50%;
         height: auto;
     }
     footer{
         grid-row: 4;
-        grid-column: 1/4;
+        grid-column: 1/5;
     }
 }
