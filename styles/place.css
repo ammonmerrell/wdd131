@@ -147,7 +147,7 @@ footer{
 @media screen and (min-width: 500px){
     body{
         display: grid;
-        grid-template: 500px 500px 500px 500px / 500px  500px 500px;
+        grid-template: 80px 500px 500px 80px / 500px  500px 500px;
     }
     main{
         display: contents;
