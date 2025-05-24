@@ -1,3 +1,10 @@
+:root{
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body{
     /* display: grid;
     grid-template: 100px 300px 200px 1fr 1fr / 1fr; */
