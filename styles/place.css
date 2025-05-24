@@ -124,8 +124,6 @@ header{
     grid-column: 1;
     background-color: var(--blue);
     padding-left: 10px;
-    /* background-color: blue;
-    color: white; */
 }
 .weather img{
     width: 10%;
@@ -138,7 +136,7 @@ header{
 
 .heat{
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+    grid-template: 50px 50px 50px 50px / 1fr 1fr;
 }
 
 footer{
@@ -151,7 +149,7 @@ footer{
 @media screen and (min-width: 500px){
     body{
         display: grid;
-        grid-template: 80px 500px 500px 80px / 500px  500px 500px;
+        grid-template: 80px 500px 400px 80px / 300px  500px 500px;
     }
     main{
         display: contents;
@@ -162,7 +160,7 @@ footer{
     }
     .data{
         position: relative;
-        grid-row: 2;
+        grid-row: 2/3;
         grid-column: 1;
     }
     .hero{
@@ -171,14 +169,14 @@ footer{
     .hero img{
         grid-row: 2/4;
         grid-column: 2;
-        margin-left: -500px; 
+        margin-left: -400px; 
         position: absolute;
         width: 100%;
         height: auto;
     }
     .weather{
         position: relative;
-        grid-row: 3;
+        grid-row: 3/5;
         grid-column: 4;
     }
     .weather img{
