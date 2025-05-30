@@ -89,7 +89,23 @@ const temples = [
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/st.-george-utah-temple/st.-george-utah-temple-58899-thumb.jpg"
     },
-    // Add more temple objects here...
+    {
+        templeName: "Newport Beach California",
+        location: "Newport Beach, California",
+        dedicated: "28 August 2005",
+        area: 17800,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/newport-beach-california-temple/newport-beach-california-temple-46818.jpg"
+    },
+    {
+        templeName: "Rome Italy",
+        location: "Rome, RM Italy",
+        dedicated: "10–12 March 2019",
+        area: 41010,
+        imageUrl:
+            "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-3548.jpg"
+    },
+
 ];
 
 createTempleCard();
