@@ -1,0 +1,132 @@
+header {
+    background-color: lightblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+
+    background-color: lightgray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #eee;
+    color: #000;
+    content: "☰";
+}
+
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.navigation a {
+    display: none;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    background-color: lightskyblue;
+}
+
+.open a {
+    display: block;
+    background-color: gainsboro;
+
+}
+
+main {
+    width: 483px;
+    width: 483px;
+    /* margin: 0 auto; */
+    background-color: lightseagreen;
+
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+
+}
+
+img {
+    max-width: 400px;
+    width: 400px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.four {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.five {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.six {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.eight {
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.nine {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+
+
+
+
+footer {
+    background-color: lightgray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
