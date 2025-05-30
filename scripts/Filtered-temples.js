@@ -110,18 +110,26 @@ const temples = [
 
 createTempleCard();
 
-function createTempleCard() {
+const oldbutton = document.querySelector("#old");
+oldbutton.addEventListener("click", () => {
+    createTempleCard(temples.filter(temple => !temple.date.inculdes("2000")));
+});
+const newbutton = document.querySelector("#new");
+const largebutton = document.querySelector("#large");
+const smallbutton = document.querySelector("#small");
+
+function createTempleCard(filtered) {
     temples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("h3");
-        let date = document.createElement("h3");
+        let dedicated = document.createElement("h3");
         let area = document.createElement("h3");
         let image = document.createElement("img");
         
         name.textContent = temple.templeName;
         location.innerHTML = `<span class="label">Location:</span> ${temple.location}`;
-        date.innerHTML = `<span class="label">Dedicated:</span> ${temple.date}`;
+        dedicated.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
         area.innerHTML = `<span class="label">Size:</span> ${temple.area} sq ft`;
         image.setAttribute("src", temple.imageUrl);
         image.setAttribute("alt", `${temple.templeName} Temple`);
@@ -129,7 +137,7 @@ function createTempleCard() {
 
         card.appendChild(name);
         card.appendChild(location);
-        card.appendChild(date);
+        card.appendChild(dedicated);
         card.appendChild(area);
         card.appendChild(image);
 
