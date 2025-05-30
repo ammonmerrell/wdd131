@@ -108,23 +108,24 @@ const temples = [
 
 ];
 
-createTempleCard();
+createTempleCard(temples);
 
 const oldbutton = document.querySelector("#old");
 oldbutton.addEventListener("click", () => {
-    createTempleCard(temples.filter(temple => !temple.date.inculdes("2000")));
+    createTempleCard(temples.filter(temple => !temple.dedicated.includes("2000")));
 });
 const newbutton = document.querySelector("#new");
 const largebutton = document.querySelector("#large");
 const smallbutton = document.querySelector("#small");
 
-function createTempleCard(filtered) {
-    temples.forEach(temple => {
+function createTempleCard(filteredtemples) {
+    document.querySelector(".cards").innerHTML = "";
+    filteredtemples.forEach(temple => {
         let card = document.createElement("section");
-        let name = document.createElement("h3");
-        let location = document.createElement("h3");
-        let dedicated = document.createElement("h3");
-        let area = document.createElement("h3");
+        let name = document.createElement("p");
+        let location = document.createElement("p");
+        let dedicated = document.createElement("p");
+        let area = document.createElement("p");
         let image = document.createElement("img");
         
         name.textContent = temple.templeName;
@@ -141,7 +142,7 @@ function createTempleCard(filtered) {
         card.appendChild(area);
         card.appendChild(image);
 
-        document.querySelector("div").appendChild(card);        
+        document.querySelector(".cards").appendChild(card);        
     });
 }
   
