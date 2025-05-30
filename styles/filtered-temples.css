@@ -1,8 +1,11 @@
 header {
     background-color: lightblue;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     font-weight: 400;
     font-style: normal;
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+       
 
 }
 
@@ -126,7 +129,8 @@ img {
 
 footer {
     background-color: lightgray;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Ancizar Serif", serif;
     font-weight: 400;
     font-style: normal;
 }
