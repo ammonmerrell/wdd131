@@ -1,8 +1,6 @@
 @media screen and (min-width: 500px) {
     main {
         background-color: grey;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         max-width: 1430px;
         width: 1430px;
     }
@@ -21,7 +19,17 @@
         justify-content: space-around;
         flex-direction: row;
     }
-
+    section{
+        border: solid rgb(0 0 0 /0.3);
+        margin: 2rem;
+        
+        
+    }
+    
+    div{
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .one {
         grid-column: 1;
         grid-row: 1;
