@@ -2,11 +2,12 @@ body{
     font-family: "Roboto", sans-serif;
 }
 div,label,input{
-    display: block;
+    display: block; 
+    /* background-color: grey;*/
 }
-/* label{
+ label{
     display: block;
-} */
+} 
 div{
     margin-top: 10px;
 }
@@ -14,5 +15,10 @@ div{
     label{
         /* display: flex;
         flex-direction: column; */
+
     }
+    /* label[type=radio]{
+        display: flex;
+        align-items: left;
+    } */
 }
