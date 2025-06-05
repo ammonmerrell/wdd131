@@ -1,0 +1,15 @@
+div,label,input{
+    display: block;
+}
+/* label{
+    display: block;
+} */
+div{
+    margin-top: 10px;
+}
+@media screen and (min-width: 500px) {
+    label{
+        /* display: flex;
+        flex-direction: column; */
+    }
+}
