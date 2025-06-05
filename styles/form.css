@@ -1,22 +1,43 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+form{
+    background-color: grey;
+    max-width: 400px;
+}
 div,label,input{
     display: block; 
-    /* background-color: grey;*/
+    /* border: solid rgb(0 0 0); */
+    background-color: darkgrey;
+    /* max-width: 400px; */
+    /* margin-right: 100px; */
+    margin-left: 1px;
+    
 }
- label{
+label{
     display: block;
+    
 } 
 div{
     margin-top: 10px;
 }
+
+footer{
+    background-color: lightgray;
+}
+
+
 @media screen and (min-width: 500px) {
     label{
         /* display: flex;
         flex-direction: column; */
 
     }
+    h1{
+        margin-left: 700px;
+    }
+        form {
+            margin-left: 600px;   }
     /* label[type=radio]{
         display: flex;
         align-items: left;
