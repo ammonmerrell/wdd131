@@ -35,3 +35,4 @@ const products = [
 ];
   
 productName = document.querySelector("#pro");
+productName = products;
