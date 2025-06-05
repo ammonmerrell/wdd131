@@ -2,9 +2,9 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const unlist = document.querySelector('ul');
 
-const chaptersArray = getChapterList() || [];
+let chaptersArray = getChapterList() || [];
 
-chaptersArray.array.forEach(chapter => {
+chaptersArray.forEach(chapter => {
     displayList(chapter)
 });
 
@@ -46,6 +46,8 @@ function displayList(item) {
 
 function setChapterList() {
     localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
+}
+function getChapterList() {
     return JSON.parse(localStorage.getItem('myFavBOMList'));
 }
 
