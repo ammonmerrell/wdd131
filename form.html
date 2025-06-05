@@ -18,9 +18,15 @@
     </header>
     <main>
         <form method="get" action="review.html">
-            <div class="pro">Product Name*<label><select><option disabled selected>Select a Product...</option><option value="pro">a</option><option value="pro">a</option><option value="pro">a</option><option value="pro">a</option><option value="pro">a</option></select></label></div>
-            <div class="star">Rating*
-            <label><input type="radio" name="rating" id="one">&star;</label>
+            <div class="pro">Product Name*<label>
+                <select id="pro" name="pro" required>
+                <option disabled selected>Select a Product...</option>
+                <option value="pro" >a</option><option value="pro">a</option>
+                <option value="pro">a</option><option value="pro">a</option>
+                <option value="pro">a</option>
+            </select></label></div>
+            <div class="star">Overall Rating*
+            <label><input type="radio" name="rating" id="one" required>&star;</label>
             <label><input type="radio" name="rating" id="two">&star;&star;</label>
             <label><input type="radio" name="rating" id="three">&star;&star;&star;</label>
             <label><input type="radio" name="rating" id="four">&star;&star;&star;&star;</label>
