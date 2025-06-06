@@ -33,6 +33,19 @@ const products = [
         averagerating: 5.0
     }
 ];
-  
-productName = document.querySelector("#pro");
-productName = products;
+
+findProducts(products);
+productName = document.querySelector(".pro");
+productName = findProducts();
+// function findProducts(item) {
+//     item.forEach(product => {
+//         let select = document.createElement("div");
+//         let name = document.createElement("p");
+//         let id = document.createElement("p");
+//         id.innerHTML = `${item.id}`;
+//         name.textContent = product.name;
+//         select.appendChild(name);
+//         select.appendChild(id);
+//         document.querySelector(".pro").appendChild(select);
+//     });
+}
