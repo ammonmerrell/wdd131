@@ -37,15 +37,15 @@ const products = [
 findProducts(products);
 productName = document.querySelector(".pro");
 productName = findProducts();
-function findProducts(item) {
-    item.forEach(product => {
-        let select = document.createElement("div");
-        let name = document.createElement("p");
-        let id = document.createElement("p");
-        id.innerHTML = `${product.id}`;
-        name.textContent = product.name;
-        select.appendChild(name);
-        select.appendChild(id);
-        document.querySelector(".pro").appendChild(select);
-    });
+// function findProducts(item) {
+//     item.forEach(product => {
+//         let select = document.createElement("div");
+//         let name = document.createElement("p");
+//         let id = document.createElement("p");
+//         id.innerHTML = `${product.id}`;
+//         name.textContent = product.name;
+//         select.appendChild(name);
+//         select.appendChild(id);
+//         document.querySelector(".pro").appendChild(select);
+//     });
 }
