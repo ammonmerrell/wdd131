@@ -44,8 +44,7 @@ function findProducts(item) {
     let name3 = document.createElement("option");
     let name4 = document.createElement("option");
     let name5 = document.createElement("option");
-    name1.innerHTML = `a `;
-    id.innerHTML = ` ${products[1].name}`;
+    id.innerHTML = `${products[1].name}`;
     name1.innerHTML = `${products[0].name}`;
     name3.innerHTML = `${products[2].name}`;
     name4.innerHTML = `${products[3].name}`;
