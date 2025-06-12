@@ -21,6 +21,11 @@ p{
 footer {
     background-color: rgb(39, 39, 121);
 }
+img {
+    display:  block;
+    width: 75%;
+    height: auto;
+}
 @media screen and (min-width: 500px){
     section{
         display: flex;
@@ -32,6 +37,13 @@ footer {
     }
     div{
         margin: 1rem;
-        
+    }
+    :link{
+        background-color:burlywood;
+        color: rgb(39, 39, 121)
+    }
+    img{
+        width:50%;
+        height: auto;
     }
 }
