@@ -19,6 +19,11 @@ localStorage.setItem("visits-ls", visits);
 
 const formDisplay = document.querySelector(".formed");
 let forms = number(window.localStorage.getItem("forms-ls"));
+
+button.addEventListener("click", () => {
+    forms++;
+})
+
 if (forms == 0) {
     formDisplay.textContent = `There have been ${form} reviews.`
 }
