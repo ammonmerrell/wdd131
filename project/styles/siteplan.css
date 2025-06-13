@@ -8,7 +8,7 @@ div{
     background-color: rgb(39, 39, 121);
     
 }
-h1,h2{
+h1,h2,h3{
     background-color: burlywood;
     color: rgb(39, 39, 121);
     font-family: "Roboto Condensed", sans-serif;
@@ -25,6 +25,12 @@ img {
     display:  block;
     width: 75%;
     height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    color: burlywood;
 }
 @media screen and (min-width: 500px){
     section{
