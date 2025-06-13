@@ -30,3 +30,7 @@ if (forms == 0) {
 else {
     formDisplay.textContent = `There are ${form} reviews.`
 }
+
+localStorage.setItem("forms-ls", form);
+
+
