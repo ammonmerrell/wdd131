@@ -16,9 +16,8 @@ if (visits == 0) {
 }
 
 localStorage.setItem("visits-ls", visits);
-
 const formDisplay = document.querySelector(".formed");
-let forms = number(window.localStorage.getItem("forms-ls"));
+let forms = Number(window.localStorage.getItem("forms-ls"));
 
 button.addEventListener("click", () => {
     forms++;
